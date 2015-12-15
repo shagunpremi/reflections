@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff and FC (File compare) makes life a lot easier when it comes to cmparing the files.
+Rather then comparing manually line by line, this command does the whole job for you.
+It shows the difference in the version and helps out to find the typos which could be tough to figure out in long codes.
+
+How could having easy access to entire history of a file make you a more efficient programmer in the long term?
+Having access to all the software verions, provides the capability to compare changes made at any point in history.
+This will not only enable us to resolve the typos and errors but also will be helpful if wanna add back certain part of the program back.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you did in Git, vs having versions automatically saved, like Google Docs does?
+Manually choosing the commits helps in deciding a precise point where a commit is required. On the other hand, automatic version control may cause too small or too big commit depending on the time frame we choose for automatic saving of versions. Further, automatic saving may have the softwares not fully finished when the version is saved. 
+So manually saving versions seems the best choice so far.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Version control systems like Git, provides the option for saving multiple files in one commit as it makes more sense to keep all the changes made for one logical task under same commit. But since this can onlly be done with manual saving, therefore Google Docs like system don't have this option as they work on automatically saving the commit at certain time intervals without caring about whether the changes being made are complete.
+
+How might using control version make you more confident to make changes that could break something?
+Git provides the flexibilty not only to compare various versions of the software but also to revert back to any desired version and determine in which version the bug might have been introduced, thereby giving developer the boosted confidence to make changes in the software without worrying about to remember each and every change made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I will be using Git intially for my Android App development class.
