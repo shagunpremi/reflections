@@ -14,5 +14,8 @@ How do the diagrams help you visualize the branch structure?
 Diagrams are very helpful as they provide an overall picture of the current software. It displays the various branches associated with the software and which branch should be checked out under various circumstances. It makes it easy to determine the commit that we should checkout for any particular task.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-Merging two branches will output result consisting of properties from both the branches. So the two or more branches that are merged act as the parent for the resultant branch. The resultant branch can be used to check commits of both the parent branches. Therefore, it is represented as the combination of two branches resulting in a final single branch with with both branches acting as the parent and therefore arrow is pointing two towards both branches that have merged. 
+Merging two branches will output result consisting of properties from both the branches. So the two or more branches that are merged act as the parent for the resultant branch. The resultant branch can be used to check commits of both the parent branches. Therefore, it is represented as the combination of two branches resulting in a final single branch with with both branches acting as the parent and therefore arrow is pointing two towards both branches that have merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Gits automatic merging is pretty efficient and makes it easy to merge two files without going through the whole code manually. However, if there is a conflict in any of the files being merged, then git will show the conflicting areas in the code and these confilcting area are then fixed manually for merge to happen. 
  
