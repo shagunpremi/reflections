@@ -1,0 +1,6 @@
+What happens when you intitialize a repository? Why do you need to do it?
+We need to initialize a repository so we can start tracking changes in the files for version control purpose. This way we will be able to track all changes in various files by saving various commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is where files are added before a commit is generated. Staging area in the intermediate stage between working directory and repository. Once all the files that needs to be added to a commit has been added to the staging area, then we can generate a commit to the repository.
+ 
